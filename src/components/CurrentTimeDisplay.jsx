@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const CurrentTimeDisplay = ({ nextInspectionTime }) => {
   const [currentTime, setCurrentTime] = useState(new Date());
+  
 
   useEffect(() => {
     const timer = setInterval(() => {
